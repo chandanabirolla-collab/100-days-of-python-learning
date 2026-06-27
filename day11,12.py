@@ -20,4 +20,6 @@ print(candy1[-7:-2])
 #it means -7 8-7=1 and 8-2=6 so it give output from index 1 to6 
 #it includes 1 not 6
 #len it says lenght 
+nm="harry" 
+print(nm[-4:-2])
 
