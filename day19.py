@@ -17,3 +17,13 @@ for num in range(1, 6):  # Generates numbers 1, 2, 3, 4, 5
         continue  # Jumps straight back to the top of the loop for number 4
         
     print(num)
+while True:
+    
+    secret_code = input("Enter password: ")
+    
+    #  Condition is checked at the bottom
+    if secret_code == "1234":
+        print("Access Granted!")
+        break  #  Breaks the loop if correct
+        
+    print("Wrong! Try again.")
